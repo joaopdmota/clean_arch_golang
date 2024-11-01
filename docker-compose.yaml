@@ -38,3 +38,5 @@ services:
     command: go run main.go wire_gen.go
     ports:
       - "8000:8000"
+      - "50051:50051"
+      - "8080:8080"
